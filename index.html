@@ -124,10 +124,17 @@
             <a href="https://tutorials.kristeenbarker.com/bundles/rock-your-long-case" target="_blank" rel="noopener noreferrer" style={{ color: "var(--teal)", textDecoration: "none", fontWeight: 600 }}>Rock Your Long Case</a>{" "}
             tutorials by Kristeen Barker.
           </p>
-          <div style={{ display: "flex", justifyContent: "center", gap: 16, flexWrap: "wrap", margin: "16px auto 0", maxWidth: 480 }}>
-            <span style={{ display: "inline-flex", alignItems: "center", gap: 4, fontSize: 12, color: "var(--text-secondary)" }}><span style={{ color: "var(--gold)" }}><LinkSvg /></span> Synthesis tips</span>
-            <span style={{ display: "inline-flex", alignItems: "center", gap: 4, fontSize: 12, color: "var(--text-secondary)" }}><span style={{ color: "var(--gold)", fontSize: 14 }}>💡</span> General tips</span>
-            <span style={{ display: "inline-flex", alignItems: "center", gap: 4, fontSize: 12, color: "var(--text-secondary)" }}><span style={{ color: "#6366F1" }}><BookSvg /></span> RYLC lessons</span>
+          <div style={{ margin: "20px auto 0", maxWidth: 320 }}>
+            <div style={{ display: "flex", alignItems: "center", gap: 8, marginBottom: 8 }}>
+              <div style={{ flex: 1, height: 1, background: "var(--border-light)" }} />
+              <span style={{ fontSize: 9, fontWeight: 700, textTransform: "uppercase", letterSpacing: "0.12em", color: "var(--text-secondary)", opacity: 0.5, whiteSpace: "nowrap" }}>Key</span>
+              <div style={{ flex: 1, height: 1, background: "var(--border-light)" }} />
+            </div>
+            <div style={{ display: "flex", justifyContent: "center", gap: 16, flexWrap: "wrap" }}>
+              <span style={{ display: "inline-flex", alignItems: "center", gap: 4, fontSize: 12, color: "var(--text-secondary)" }}><span style={{ color: "var(--gold)" }}><LinkSvg /></span> Synthesis tips</span>
+              <span style={{ display: "inline-flex", alignItems: "center", gap: 4, fontSize: 12, color: "var(--text-secondary)" }}><span style={{ color: "var(--gold)", fontSize: 14 }}>💡</span> General tips</span>
+              <span style={{ display: "inline-flex", alignItems: "center", gap: 4, fontSize: 12, color: "var(--text-secondary)" }}><span style={{ color: "#6366F1" }}><BookSvg /></span> RYLC lessons</span>
+            </div>
           </div>
           <div style={{ textAlign: "center", margin: "14px auto 0", maxWidth: 380 }}>
                 <button onClick={() => setInstallOpen(!installOpen)} style={{ fontSize: 12, color: "var(--teal)", background: "none", border: "none", cursor: "pointer", fontWeight: 600, display: "inline-flex", alignItems: "center", gap: 4 }}>
